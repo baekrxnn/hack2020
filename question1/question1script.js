@@ -1,5 +1,5 @@
 /* global $*/
-var counter = 0 ;
+window.counter = 0 ;
 $(function() {
   $("#slider").slider();
   $("#slider").slider('option',{min: 0, max: 100});
@@ -14,11 +14,13 @@ $("#answer1").click(function() {
     $('.dropBtn').show();
   } else if(answer < 25) {
     $(".answerSpace").text("Almost, but you're a little too low...")
-    counter =+ 1
+    window.counter =+ 1
   } else {
     $(".answerSpace").text("Not quite that high...")
-    counter =+ 1 
+    window.counter =+ 1 
   }
-}); 
- //export counter
+});
 
+$('.dropBtn').click(function() {
+  
+});
