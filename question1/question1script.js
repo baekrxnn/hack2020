@@ -1,4 +1,5 @@
 /* global $*/
+var counter = 0 ;
 $(function() {
   $("#slider").slider();
   $("#slider").slider('option',{min: 0, max: 100});
@@ -6,7 +7,6 @@ $(function() {
 });
 
 $("#answer1").click(function() {
-  var counter =+ 1
   let answer = $("#slider").slider("value");
   console.log(answer);
   if(answer === 25){
@@ -14,8 +14,11 @@ $("#answer1").click(function() {
     $('.dropBtn').show();
   } else if(answer < 25) {
     $(".answerSpace").text("Almost, but you're a little too low...")
+    counter =+ 1
   } else {
     $(".answerSpace").text("Not quite that high...")
+    counter =+ 1 
   }
 }); 
- export default
+ //export counter
+

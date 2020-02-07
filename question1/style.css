@@ -22,12 +22,12 @@ body {
   margin: 30px;
 }
 #answer1 {
-  
-  
+  text-align: center; 
 }
 
 .answerSpace {
-  
+  display: flex;
+    justify-content: center;
 }
 .answerButtons {
   display: flex;
@@ -35,4 +35,7 @@ body {
 }
 .show{
   display: block;
+}
+h1 {
+  text-align: center;
 }
