@@ -17,15 +17,16 @@ body {
 h1 {
   text-align: center;
 }
-.slider-container {
-  diplay: flex;
+.answerButtons {
+  margin-top: 20px;
   justify-content: center;
-  margin: 10px auto;
+  text-align: center;
   
 }
 
-#answer1 {
-  text-align: center;
+.answerButtons {
+  display: flex;
+  justify-content: center;
 }
 .dropBtn {
   display: none;
