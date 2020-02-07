@@ -119,15 +119,15 @@ $("#answer7").click(function() {
   }
 });
 
-("#answer7").click(function() {
+$("#answer8").click(function() {
   let answer = $("#slider").slider("value");
   console.log(answer);
-  if(answer === 77){
-    $(".answerSpace").text("thats correct! San Francisco's rent is 277% over the national average");
+  if(answer === 50){
+    $(".answerSpace").text("thats correct! About 50% of monthly earnings go towards paying for rent for an engineer in San Francisco");
     // info: san francisco's average rent (monthly) is $4500; national average is $1625 per month.
     $('.dropBtn').show();
     $(".moveON").show();
-  } else if(answer < 77) {
+  } else if(answer < 50) {
     $(".answerSpace").text("Almost, but you're a little too low...")
     window.counter =+ 1
   } else {
