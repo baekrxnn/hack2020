@@ -12,6 +12,23 @@ $("#answer1").click(function() {
   if(answer === 25){
     $(".answerSpace").text("thats correct! Only About 25 percent of jobs in tech are filled by women, while they make up 47 percent of the workforce")
     $('.dropBtn').show();
+    $(".moveON").show();
+  } else if(answer < 25) {
+    $(".answerSpace").text("Almost, but you're a little too low...")
+    window.counter =+ 1
+  } else {
+    $(".answerSpace").text("Not quite that high...")
+    window.counter =+ 1 
+  }
+});
+
+$("#answer2").click(function() {
+  let answer = $("#slider").slider("value");
+  console.log(answer);
+  if(answer === 3){
+    $(".answerSpace").text("thats correct! As of 2016, only About 3 percent of tech jobs at facebook are filled by people who identify as Hispanic")
+    $('.dropBtn').show();
+    $(".moveON").show();
   } else if(answer < 25) {
     $(".answerSpace").text("Almost, but you're a little too low...")
     window.counter =+ 1
@@ -22,5 +39,5 @@ $("#answer1").click(function() {
 });
 
 $('.dropBtn').click(function() {
-  
+  $('.dropInfo').show();
 });

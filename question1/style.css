@@ -17,3 +17,13 @@ h1 {
 .dropBtn {
   display: none;
 }
+.moveOn {
+  display: none;
+}
+.dropInfo {
+  display: none;
+}
+.answerSpace {
+  margin: 20px;
+  font-size: 30px;
+}
