@@ -10,12 +10,16 @@ body {
 }
 #slider {
   width: 500px;
-  margin: 30px;
+  margin: 0 auto;
    display: flex;
   justify-content: center;
 }
 h1 {
   text-align: center;
+}
+.slider-container {
+  align-items: center;
+  margin: 10px auto;
 }
 .dropBtn {
   display: none;
