@@ -17,6 +17,6 @@ h1 {
 }
 .start-link {
   text-decoration: none;
-     display: flex;
-  justify-content: center;
+  display: flex;
+  justify-content: space-around;
 }

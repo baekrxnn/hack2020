@@ -6,6 +6,7 @@ $(function() {
 });
 
 $("#answer1").click(function() {
+  var counter =+ 1
   let answer = $("#slider").slider("value");
   console.log(answer);
   if(answer === 25){
