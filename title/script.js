@@ -9,8 +9,7 @@ $(function() {
 });
 
 $("button").click(function() {
-  $("button").hide();
-  let answer = $("#slider").slider();
+  let answer = $("#slider").slider("value");
   console.log(answer);
 });
 
