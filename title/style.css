@@ -3,6 +3,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: ;
 }
 
 h1 {
@@ -11,8 +12,5 @@ h1 {
 }
 .start-link {
   text-decoration: none;
-  
-}
-h1 {
   
 }
