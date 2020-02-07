@@ -20,14 +20,7 @@ body {
 #slider {
   width: 500px;
   margin: 30px;
-}
-#answer1 {
-  text-align: center; 
-}
-
-.answerSpace {
-  display: flex;
-    justify-content: center;
+  text-align: center;
 }
 .answerButtons {
   display: flex;
