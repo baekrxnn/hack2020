@@ -18,5 +18,5 @@ h1 {
 .start-link {
   text-decoration: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
