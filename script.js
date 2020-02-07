@@ -1,5 +1,12 @@
 /* global $*/
 
 $("button").click(function() {
-  $("button").hide;
+  $("button").hide();
+  alert("HIIIIIII"); 
 });
+
+
+
+$( function() {
+    $( "#slider" ).slider();
+  } );
