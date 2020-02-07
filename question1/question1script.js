@@ -9,7 +9,6 @@ $(function() {
 $("#answer1").click(function() {
   let answer = $("#slider").slider("value");
   console.log(answer);
-  $(".percentNum").text(answer + "%");
   if(answer === 25){ 
     $(".answerSpace").text("thats correct!");
     $('.dropBtn').show();
@@ -149,9 +148,3 @@ $('.dropBtn').click(function() {
 });
 
 console.log(window.counter);
-
-function percentDisplay(button) {
-  $(button).mouseDown(function() {
-    
-}
-)};
