@@ -1,4 +1,4 @@
-
+/* global $*/
 $(function() {
   $("#slider").slider();
   $("#slider").slider('option',{min: 0, max: 100});
