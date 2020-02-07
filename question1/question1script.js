@@ -25,7 +25,8 @@ $("#answer1").click(function() {
 
 $("#answer2").click(function() {
   let answer = $("#slider").slider("value");
-  console.log(answer);
+  console.log(answer + "%");
+  $(".percentNum").text(answer + "%");
   if(answer === 3){
     $(".answerSpace").text("thats correct!");
     $('.dropBtn').show();
@@ -42,6 +43,7 @@ $("#answer2").click(function() {
 $("#answer3").click(function() {
   let answer = $("#slider").slider("value");
   console.log(answer);
+  $(".percentNum").text(answer + "%");
   if(answer === 18){
     $(".answerSpace").text("thats correct!");
     $('.dropBtn').show();
@@ -57,7 +59,8 @@ $("#answer3").click(function() {
 
 $("#answer4").click(function() {
   let answer = $("#slider").slider("value");
-  console.log(answer);
+  console.log(answer + "%");
+  $(".percentNum").text(answer + "%");
   if(answer === 41){
     $(".answerSpace").text("thats correct!");
     $('.dropBtn').show();
@@ -73,7 +76,8 @@ $("#answer4").click(function() {
 
 $("#answer5").click(function() {
   let answer = $("#slider").slider("value");
-  console.log(answer);
+  console.log(answer + "%");
+  $(".percentNum").text(answer + "%");
   if(answer === 93){
     $(".answerSpace").text("thats correct!");
     $('.dropBtn').show();
@@ -89,7 +93,8 @@ $("#answer5").click(function() {
 
 $("#answer6").click(function() {
   let answer = $("#slider").slider("value");
-  console.log(answer);
+  console.log(answer + "%");
+  $(".percentNum").text(answer + "%");
   if(answer === 6){
     $(".answerSpace").text("thats correct!");
     $('.dropBtn').show();
@@ -105,7 +110,8 @@ $("#answer6").click(function() {
 
 $("#answer7").click(function() {
   let answer = $("#slider").slider("value");
-  console.log(answer);
+  console.log(answer + "%");
+  $(".percentNum").text(answer + "%");
   if(answer === 77){
     $(".answerSpace").text("thats correct!");
     // info: san francisco's average rent (monthly) is $4500; national average is $1625 per month.
@@ -122,7 +128,8 @@ $("#answer7").click(function() {
 
 $("#answer8").click(function() {
   let answer = $("#slider").slider("value");
-  console.log(answer);
+  console.log(answer + "%");
+  $(".percentNum").text(answer + "%");
   if(answer === 50){
     $(".answerSpace").text("thats correct!");
     // info: san francisco's average rent (monthly) is $4500; national average is $1625 per month.
@@ -142,3 +149,9 @@ $('.dropBtn').click(function() {
 });
 
 console.log(window.counter);
+
+function percentDisplay(button) {
+  $(button).mouseDown(function() {
+    
+}
+)};

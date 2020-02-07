@@ -34,6 +34,9 @@ h1 {
   margin: 20px;
   font-size: 30px;
 }
+  .answer1 {
+    
+  }
 .image1 {
   
 }
@@ -43,4 +46,7 @@ h1 {
 }
 .moveText {
   text-decoration: none;
+}
+.percentNum {
+  text-align: center;
 }

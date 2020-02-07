@@ -1,1 +1,3 @@
-$().click(function();
+$(".results").click(function() {
+  $("#result").text(window.counter);
+});
