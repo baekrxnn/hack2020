@@ -13,18 +13,23 @@
 }
 
 #slider {
-  width: 500px 
-  margin-left: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  width: 500px;
+  margin: 30px;
 }
 
 #answer1 {
-  
+
   
 }
 
 .answerSpace {
   
-  
+}
+.answerButtons {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+.show{
+  display: block;
 }

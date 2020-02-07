@@ -10,7 +10,7 @@ $("#answer1").click(function() {
   console.log(answer);
   if(answer === 25){
     $(".answerSpace").text("thats correct! Only About 25 percent of jobs in tech are filled by women, while they make up 47 percent of the workforce")
-    $().show('.dropBtn');
+    $('.dropBtn').show();
   } else if(answer < 25) {
     $(".answerSpace").text("Almost, but you're a little too low...")
   } else {
