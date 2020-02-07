@@ -15,4 +15,4 @@ $("#answer1").click(function() {
   } else {
     $(".answerSpace").text("Not quite that high...")
   }
-});
+}); 

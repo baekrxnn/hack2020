@@ -1,3 +1,10 @@
 .slideContainer {
-  
+  display: flex;
+  justify-content: center;
 }
+.dropDownSpace {
+  postion: relative;
+  display: inline-block;
+}
+
+.
