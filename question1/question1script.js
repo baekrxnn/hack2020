@@ -1,5 +1,5 @@
 /* global $*/
-window.counter = 0 ;
+window.counter = 0;
 $(function() {
   $("#slider").slider();
   $("#slider").slider('option',{min: 0, max: 100});
@@ -16,10 +16,10 @@ $("#answer1").click(function() {
     $(".moveOn").show();
   } else if(answer < 25) {
     $(".answerSpace").text("Almost, but you're a little too low...")
-    window.counter =+ 1
+    window.counter += 1
   } else {
     $(".answerSpace").text("Not quite that high...")
-    window.counter =+ 1 
+    window.counter += 1 
   }
 });
 
@@ -33,10 +33,10 @@ $("#answer2").click(function() {
     $(".moveOn").show();
   } else if(answer < 3) {
     $(".answerSpace").text("Almost, but you're a little too low...")
-    window.counter =+ 1
+    window.counter += 1
   } else {
     $(".answerSpace").text("Not quite that high...")
-    window.counter =+ 1 
+    window.counter += 1 
   }
 });
 
@@ -50,10 +50,10 @@ $("#answer3").click(function() {
     $(".moveOn").show();
   } else if(answer < 18) {
     $(".answerSpace").text("Almost, but you're a little too low...")
-    window.counter =+ 1
+    window.counter += 1
   } else {
     $(".answerSpace").text("Not quite that high...")
-    window.counter =+ 1 
+    window.counter += 1 
   }
 });
 
@@ -67,10 +67,10 @@ $("#answer4").click(function() {
     $(".moveOn").show();
   } else if(answer < 41) {
     $(".answerSpace").text("Almost, but you're a little too low...")
-    window.counter =+ 1
+    window.counter += 1
   } else {
     $(".answerSpace").text("Not quite that high...")
-    window.counter =+ 1 
+    window.counter += 1 
   }
 });
 
@@ -84,10 +84,10 @@ $("#answer5").click(function() {
     $(".moveOn").show();
   } else if(answer < 93) {
     $(".answerSpace").text("Almost, but you're a little too low...")
-    window.counter =+ 1
+    window.counter += 1
   } else {
     $(".answerSpace").text("Not quite that high...")
-    window.counter =+ 1 
+    window.counter += 1 
   }
 });
 
@@ -101,10 +101,10 @@ $("#answer6").click(function() {
     $(".moveOn").show();
   } else if(answer < 6) {
     $(".answerSpace").text("Almost, but you're a little too low...")
-    window.counter =+ 1
+    window.counter += 1
   } else {
     $(".answerSpace").text("Not quite that high...")
-    window.counter =+ 1 
+    window.counter += 1 
   }
 });
 
@@ -119,10 +119,10 @@ $("#answer7").click(function() {
     $(".moveOn").show();
   } else if(answer < 77) {
     $(".answerSpace").text("Almost, but you're a little too low...")
-    window.counter =+ 1
+    window.counter += 1
   } else {
     $(".answerSpace").text("Not quite that high...")
-    window.counter =+ 1 
+    window.counter += 1 
   }
 });
 
@@ -137,10 +137,10 @@ $("#answer8").click(function() {
     $(".moveOn").show();
   } else if(answer < 50) {
     $(".answerSpace").text("Almost, but you're a little too low...")
-    window.counter =+ 1
+    window.counter += 1
   } else {
     $(".answerSpace").text("Not quite that high...")
-    window.counter =+ 1 
+    window.counter += 1 
   }
 });
 

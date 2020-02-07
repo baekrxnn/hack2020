@@ -55,5 +55,6 @@ button {
   display: inline-block;
   border: none;
 }
-button {
+button:hover {
+  background-color: white;
 }
